@@ -4,7 +4,7 @@ def fib(n):
     if n==1: return 1
     return fib(n-1)+fib(n-2)
 def allfib(n):
-    for i in range(n):
+    for i in range(1,n+1):
         print(i," : ",fib(i))
 
-allfib(4)
+allfib(20)
