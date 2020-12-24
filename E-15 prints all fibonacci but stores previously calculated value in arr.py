@@ -1,3 +1,4 @@
+# Time complexity: O(n) why ? Because of memoization technique
 def fib(n,memo):
     if n<=0: return 0
     if n==1: return 1
