@@ -12,4 +12,4 @@ def allfib(n):
     for i in range(1,n+1):
         print(i," : ",fib(i,memo))
 
-allfib(10)
+allfib(100)
